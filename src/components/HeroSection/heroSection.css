@@ -1,0 +1,17 @@
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #504a77;
+}
+
+.hero-title-sub {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fecc92;
+}
+
+/* @media screen and (max-width: 800px) {
+  .illustration {
+    display: none;
+  }
+} */
