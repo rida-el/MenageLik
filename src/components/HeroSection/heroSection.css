@@ -10,8 +10,26 @@
   color: #fecc92;
 }
 
-/* @media screen and (max-width: 800px) {
-  .illustration {
-    display: none;
+@media screen and (max-width: 770px) {
+  .hero-title {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 500;
+    top:5rem
   }
-} */
+  .hero-title-sub {
+    font-size: 1.3rem;
+    font-weight: 500;
+    min-width: 50%;
+  }
+  .hero-section {
+    padding: 3px;
+  }
+  .hero-content p {
+    font-size: 10px;
+  }
+  .hero-content button {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
