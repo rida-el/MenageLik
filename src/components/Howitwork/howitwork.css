@@ -33,12 +33,14 @@
   flex-direction: column;
   align-items: center;
 }
-.card .title
-{
+.card .title {
   font-weight: 500;
   margin: 1rem 0;
 }
-
+.card .icon {
+  width: 40px;
+  height: 40px;
+}
 @media screen and (max-width: 770px) {
   .how-section .how-content h1 {
     font-size: 1.5rem;

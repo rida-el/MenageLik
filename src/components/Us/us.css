@@ -1,0 +1,38 @@
+.us-content {
+  max-width: 50%;
+  padding: 2rem;
+}
+
+.us-content .us-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #504a77;
+}
+
+.us-image {
+  top: 0;
+  overflow: hidden;
+  width: 630px;
+  height: 400px;
+  background-color: rgb(77, 99, 118);
+  background-image: url(./img/3.jpeg);
+  background-size: 1230px;
+  background-repeat: no-repeat;
+  background-position: -260px -290px;
+  border-radius: 20px;
+  position: absolute;
+  top: 15rem;
+  right: 3rem;
+}
+.card-us {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 36px rgb(18 78 120 / 8%);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-us h1{
+  font-size: 18px;
+  font-weight: 700;
+  color: #504a77;
+}

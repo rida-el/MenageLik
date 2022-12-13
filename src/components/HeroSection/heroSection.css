@@ -7,7 +7,7 @@
 .hero-title-sub {
   font-size: 3rem;
   font-weight: 700;
-  color: #fecc92;
+  color: #c4dffd;
 }
 
 @media screen and (max-width: 770px) {
@@ -15,7 +15,7 @@
     position: absolute;
     font-size: 1.5rem;
     font-weight: 500;
-    top:5rem
+    top: 5rem;
   }
   .hero-title-sub {
     font-size: 1.3rem;

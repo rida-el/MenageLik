@@ -23,14 +23,6 @@ const HeroSection = () => {
           <button className="bg-[#504A77] text-white hover:text-black md:py-2 rounded md:px-6 mt-[1rem] hover:bg-[#C4DFFD] duration-500 ">
             Contactez-nous
           </button>
-          <div className="content-icons pt-[1rem] text-[#FECC92] md:block hidden">
-            <p>suivez-nous sur les réseaux sociaux</p>
-            <div className="content-icons flex gap-[1rem]">
-              <GrFacebook color="#504A77" size={30} />
-              <GrInstagram color="#504A77" size={30} />
-              <GrTwitter color="#504A77" size={30} />
-            </div>
-          </div>
         </div>
         <div className="illustration max-w-[60%] flex">
           <img className="md:block hidden" src={hero} alt="" />
