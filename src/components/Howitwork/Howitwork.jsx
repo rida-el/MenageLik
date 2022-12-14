@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
 import "./howitwork.css";
 import icon1 from "./icons/1.png";
 import icon2 from "./icons/2.png";

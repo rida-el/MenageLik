@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "./navbar";
-import { GrFacebook, GrInstagram, GrTwitter } from "react-icons/gr";
+// import { GrFacebook, GrInstagram, GrTwitter } from "react-icons/gr";
 import hero from "../images/hero-ullistration.svg";
 import mobile from "../images/mobile-hero.svg";
 
 import "./heroSection.css";
-import Button from "./Button";
+// import Button from "./Button";
 
 const HeroSection = () => {
   return (
