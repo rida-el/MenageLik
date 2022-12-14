@@ -1,0 +1,38 @@
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #504a77;
+}
+
+.hero-title-sub {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c4dffd;
+}
+
+@media screen and (max-width: 770px) {
+  .hero-title {
+    font-size: 2rem;
+    font-weight: 500;
+    /* min-width: 100px; */
+  }
+  .hero-title-sub {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .hero-section {
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-content p {
+    font-size: 16px;
+  }
+  .hero-content button {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .illustration {
+    max-width: 22rem;
+  }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 770px) {
+    .contact-text 
+    {
+
+        padding:  10px;
+    }
+    .contact-text h1
+    {
+        font-size: 2rem;
+    }
+    .contact-form
+    {
+        height: 300px;
+        width: 280px;
+    }
+}
