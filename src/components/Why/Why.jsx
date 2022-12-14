@@ -46,7 +46,7 @@ const Why = () => {
       <div className="why-content text-center ">
         <div className="why-text flex flex-col items-center">
           <h1>Pourquoi les gens nous choisissent</h1>
-          <p className="w-[40rem]">
+          <p>
             Chez Ménage lik services, nous sommes engagés à prendre soin. Nous
             sommes une entreprise familiale qui prend bien soin de ses employés,
             afin qu'ils puissent bien prendre soin de votre maison.

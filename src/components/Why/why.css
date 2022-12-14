@@ -29,7 +29,11 @@
   font-weight: 700;
   color: #504a77;
 }
-
+.why-content p {
+  /* font-size: 18px; */
+  width: 40rem;
+  
+}
 @media screen and (max-width: 1024px) {
   .why-grids {
     grid-template-columns: repeat(2, 1fr);
@@ -43,5 +47,14 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
     padding: 2rem;
+  }
+  .why-content h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .why-content p {
+    font-size: 18px;
+    width: 20rem;
+    /* font-weight: 400; */
   }
 }

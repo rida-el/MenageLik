@@ -12,24 +12,27 @@
 
 @media screen and (max-width: 770px) {
   .hero-title {
-    position: absolute;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
-    top: 5rem;
+    /* min-width: 100px; */
   }
   .hero-title-sub {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 500;
-    min-width: 50%;
   }
   .hero-section {
     padding: 3px;
+    display: flex;
+    flex-direction: column;
   }
   .hero-content p {
-    font-size: 10px;
+    font-size: 16px;
   }
   .hero-content button {
-    font-size: 10px;
+    font-size: 16px;
     padding: 5px;
+  }
+  .illustration {
+    max-width: 22rem;
   }
 }

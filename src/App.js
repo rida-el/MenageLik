@@ -9,14 +9,14 @@ import Why from './components/Why/Why';
 
 function App() {
   return (
-    <>
+    <div className='h-full max-w-[1620px] flex flex-col m-auto'>
       <HeroSection />
       <Howitwork />
       <Why />
       <Us />
       <Services />
-      {/* <ContactUs /> */}
-    </>
+      <ContactUs />
+    </div>
   );
 }
 

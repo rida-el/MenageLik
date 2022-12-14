@@ -49,7 +49,7 @@ const Services = () => {
     <div className="w-full h-full text-center">
       <div className="services-text flex flex-col items-center">
         <h1>Services De Nettoyage</h1>
-        <p className="w-[60rem]">
+        <p className="max-w-[60rem] p-[3px]">
           Tout bâtiment. Toute industrie. À toute heure. Un environnement propre
           et sain est essentiel pour toutes les entreprises et installations,
           quel que soit le secteur. Maintenant plus que jamais, des méthodes de

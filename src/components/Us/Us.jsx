@@ -19,7 +19,7 @@ const Us = () => {
     },
   ];
   return (
-    <div className="w-full min-h-[600px] bg-[#C4DFFD] flex items-center relative mb-[5rem]">
+    <div className="us-container w-full min-h-[600px] bg-[#C4DFFD] flex items-center relative mb-[5rem]">
       <div className="us-content">
         <div className="us-title">
           <h1>Qui nous sommes</h1>{" "}
@@ -41,7 +41,7 @@ const Us = () => {
           ))}
         </div>
       </div>
-      <div className="us-image md:flex hidden"></div>
+      <div className="us-image "></div>
     </div>
   );
 };

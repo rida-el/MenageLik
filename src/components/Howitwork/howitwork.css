@@ -25,7 +25,7 @@
 .card {
   box-shadow: 0px 10px 36px rgb(18 78 120 / 8%);
   border-radius: 16px;
-  padding: 30px 25px;
+  padding: 20px;
   text-align: center;
   height: 20rem;
   width: 20rem;
@@ -34,6 +34,7 @@
   align-items: center;
 }
 .card .title {
+  font-size: 24px;
   font-weight: 500;
   margin: 1rem 0;
 }
@@ -43,11 +44,11 @@
 }
 @media screen and (max-width: 770px) {
   .how-section .how-content h1 {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 600;
   }
   .how-section .how-content p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .how-cards {
     width: 100%;
@@ -56,8 +57,11 @@
     align-items: center;
   }
   .card {
-    height: 13rem;
-    width: 13rem;
+    height: 15rem;
+    width: 15rem;
+  }
+  .card .title {
+    font-size: 18px;
   }
   .bg-section {
     height: 85%;

@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="w-full fixed top-0 left-0 z-30">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-        <div className="items-center font-[Poppins] w-[15rem] ">
+        <div className="items-center w-[16rem]">
           <img src={logo} alt="" />
         </div>
 
@@ -32,11 +32,11 @@ const Navbar = () => {
           {Links.map((link) => (
             <li
               key={link.name}
-              className="md:ml-8 text-[1.3rem] font-medium md:my-0 my-7"
+              className="md:ml-8 text-[1.2rem] md:my-0 my-7"
             >
               <a
                 href={link.link}
-                className="text-gray-800 hover:text-[#FECC92] duration-500"
+                className="text-gray-800 hover:text-[#c4dffd] duration-500"
               >
                 {link.name}
               </a>

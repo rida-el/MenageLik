@@ -35,7 +35,7 @@ const Howitwork = () => {
           </p>
           <div className="how-cards flex mt-[2rem]">
             {cardElement.map((i) => (
-              <div className="card bg-white ">
+              <div className="card bg-white flex justify-center">
                 <div className="icon">
                   <img src={i.icon} alt="" />
                 </div>
